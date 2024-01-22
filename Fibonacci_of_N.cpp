@@ -8,5 +8,7 @@ int fib(int n){
     return last + slast;
 }
 int main(){
-    cout << fib(3);
+    cout << fib(6) << '\n';
+    // cout << ' ';
+
 }
