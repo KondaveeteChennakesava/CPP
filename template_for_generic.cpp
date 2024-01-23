@@ -15,10 +15,10 @@ int main(){
     int n;
     cin >> n;
     // int arr[n];
-    // int k;
-    // cin >> k;
+    // int kk;
+    // cin >> kk;
     // for(int i=0;i<n;i++) cin >> arr[i];
-    // cout << search_ele(n,arr,k)<<"\n";
+    // cout << search_ele(n,arr,kk)<<"\n";
     string s;
     cin >> s;
     string arr[n];
