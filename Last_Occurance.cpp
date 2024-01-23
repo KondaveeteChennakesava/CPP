@@ -6,7 +6,7 @@ int lastOccurance(int *arr,int n,int key){
     int smallAns = lastOccurance(arr+1,n-1,key);
     if(smallAns == -1){
         if(arr[0] == key) return 0;
-        else return -1;
+        return -1;
     }
     return smallAns + 1; 
 }
